@@ -29,12 +29,7 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
     // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: ["Hi we are Team Bogart"],
-        typeSpeed: 100,
-        backSpeed: 40,
-        loop: true
-    });
+    
     var typed = new Typed(".typing-2", {
         strings: ["Project Manager"],
         typeSpeed: 100,
