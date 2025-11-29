@@ -24,7 +24,7 @@ html{
 }
 /* all similar content styling codes */
 section{
-    padding: 100px 0;
+    padding-top: 100px;
 }
 .max-width{
     max-width: 1300px;
@@ -317,11 +317,15 @@ section .title::after{
     background: crimson!important;
 }
 /* services section styling */
-.services, .teams{
+.teams{
     color:#fff;
     background: #074eb1;
     background-image: url();
    
+}
+
+.services {
+  background: #141313;
 }
 /* contact section styling */
 
